@@ -1,0 +1,118 @@
+    /* ESTILO DA DIV */
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    /* ESTILO DOS TEXTOS */
+
+    .italic{
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    .italico{
+        font-style: italic;
+    }
+
+    h1{
+        margin-left: 10px;
+        text-decoration-line: overline green;
+    }
+
+    h2{
+        margin-left: 10px;
+    }
+
+    h3{
+        margin-left: 10px;
+    }
+
+    h4{
+        margin-left: 10px;
+    }
+
+    h5{
+        margin-left: 10px;
+    }
+
+    h6{
+        margin-left: 10px;
+    }
+
+    /* ESTILO DAS DIVS */
+
+    .div-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 85px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: solid 2px #e600e6;
+        margin-left: 10px;
+        background-color: #373737;
+    }
+
+    .div-shirt{
+        background-color: #404040;
+        border: 3.5px solid #0077ff;
+        width: 350px;
+        height: 525px;
+        border-radius: 15px;
+        overflow: hidden;
+
+    }
+
+    .div-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    .div-shirt img {
+        border-radius: 12px;
+        width: 350px;
+        height :350px;
+    }
+
+        .div-topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 35px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: solid 4px #0077ff;
+        margin-top: 15px;
+        margin-left: 35px;
+
+    }
+
+
+    /* ESTILO DOS BOTÕES */
+    .testbtn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: #0f0598;
+        color: white;
+        font-size: 15px;
+        width: 85px;
+        height: 23px;
+        border: solid 2px black;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+
+    .testbtn:hover {
+        background-color: #0f0598;
+    }
