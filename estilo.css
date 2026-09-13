@@ -17,7 +17,6 @@
 
     h1{
         margin-left: 10px;
-        text-decoration-line: overline green;
     }
 
     h2{
@@ -65,6 +64,29 @@
 
     }
 
+    .div-sweatshirt{
+        background-color: #404040;
+        border: 3.5px solid #00e600;
+        width: 350px;
+        height: 525px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    /* ESTILO DAS IMAGENS DAS DIVS */
+
+    .div-shirt img {
+        border-radius: 12px;
+        width: 350px;
+        height :350px;
+    }
+
+    .div-sweatshirt img {
+        border-radius: 12px;
+        width: 350px;
+        height :350px;
+    }
+
     .div-container{
         display: flex;
         flex-direction: row;
@@ -73,12 +95,6 @@
         padding: 10px;
         width: 100%;
 
-    }
-
-    .div-shirt img {
-        border-radius: 12px;
-        width: 350px;
-        height :350px;
     }
 
         .div-topic {
