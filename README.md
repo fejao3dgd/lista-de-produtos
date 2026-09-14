@@ -17,8 +17,9 @@ Uma página de catálogo em HTML e CSS puros, pensada como vitrine/curadoria: re
 ├── categories/
 │   ├── shirt-list.html         # Vitrine de camisas
 │   └── hoodie-list.html        # Vitrine de moletons
-└── image/
-    ├── shirt-icon.png          #icones usados 
+|
+└── image/                      #icones usados 
+    ├── shirt-icon.png          
     ├── hoodie-icon.png
 
 
