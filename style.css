@@ -50,9 +50,70 @@
         border-radius: 15px;
         overflow: hidden;
         border: solid 2px #e600e6;
-        margin-left: 10px;
+        gap: 10px;
         background-color: #373737;
     }
+
+    .div-template{
+        background-color: #404040;
+        border: 3.5px solid #0077ff;
+        width: 350px;
+        height: 525px;
+        border-radius: 15px;
+        overflow: hidden;
+
+    }
+
+    .div-topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 35px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-left: 35px;
+
+    }
+
+    .div-category1{
+        background-color: #1c1c1c;
+        border: 3.5px solid #0077ff;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        margin-left: 200px;
+        margin-top: 55px;
+
+    }
+
+    .div-category2{
+        background-color: #1c1c1c;
+        border: 3.5px solid #0077ff;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 110px;
+
+    }
+
+    .div-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 10px;
+        width: 100%;
+
+    }
+
+
 
     .div-shirt{
         background-color: #404040;
@@ -75,10 +136,23 @@
 
     /* ESTILO DAS IMAGENS DAS DIVS */
 
+    .div-template img {
+        border-radius: 12px;
+        width: 350px;
+        height :350px;
+    }
+
     .div-shirt img {
         border-radius: 12px;
         width: 350px;
         height :350px;
+    }
+
+        .div-category img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .div-sweatshirt img {
@@ -87,17 +161,7 @@
         height :350px;
     }
 
-    .div-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 25px;
-        padding: 10px;
-        width: 100%;
-
-    }
-
-        .div-topic {
+        .div-topic img{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,6 +176,14 @@
 
 
     /* ESTILO DOS BOTÕES */
+
+    .categorybtn{
+        justify-content: center;
+        align-items: center;
+        color: #0077ff;
+        font-size: 25px;
+    }
+
     .testbtn {
         justify-content: center;
         align-items: center;
